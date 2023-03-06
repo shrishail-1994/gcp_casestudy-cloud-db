@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eastern-camp-278504",
+  "private_key_id": "8cedc05c7aafe92cff06e9a124f852fb059d349c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUWREEa5ixDbi7\nRqJ9ISWhY4asKYyHxRlFK8aZY8Y6/JlUw0Tw6YUf4Gd4fX5i9v68awxEZcTqdrCH\nid4g6WYikq2xwQg2zHvXnb1OAE3lxOIePZrV4arDO0yJ/KnoHCZEhCSTw4Wwb+bH\nii8D8Wx5vV912OjLmC10OGLOoHacF8BxMuR3vKzPs/EkBB63nabSt3/plqhqCzGL\nfSEbKmSpL77XCWA+gTKVmXYWJa7erleNfvyxjLXAYDQEn9aHVfgxFESXD5jUx+J6\nX6vc0jVrZcRq9RBn9DSLkSOkSPmghlbjYR11GrcL7pntrdkYOuN37aHzSW+unKka\nmoNQ/DrJAgMBAAECggEASoIb/fyQ/aMObCvbLOO6E/hbk0Ia7LLEbKhxDXZcYmsq\nk/rWUF/n1akENVt3Qttew5ceHUvGPey6gTxnZA3xR/VGnAXaz3uNgrj26Q0jSBl+\nq9S65QxDQjCm6Q3uQiLKbKUfPnfPC3sgM2ixmYUXJlpDyhJ7kKCLZmm4hb75D0iE\nn0XyCZLYuyf8LBgVGcdoPLTtUuEEqq2WviynGYfdmW8ACAbE2oKVMyMFNoFDfjUJ\nGpLIY6n6uraf45+mzR5hggGaOg60v7loUbg2TE/D0MiEsP5YsPdrpEZlkQbChc/1\nTgHtCzq6dGh+r84Sf+eNVbkEmGOsfOJyEXBS8ZstbwKBgQDqA4dk0FlQmjOtHl+X\ntDClLWdcv+udbEShIarh7j9dzm9tlp7Cqdqabd2YDcqOvUgMWC3JRCn480sJMItW\nCme9QYQbg1SquLiLnwOdg0RrlojYXLdBPtHmiEA4bRBiHxJPoaJr4a7sV3RywUmd\nEpB+Z8oX+370O7MbVvLl+Z+bCwKBgQDoTG7Ikn/C/Dipo8AzbmeRZmDohh14D5ct\n1MYA4BTHN5cuylLtOz1pPWxdjQYIjUp9/+YLWbitSSEjqAFwKiKkInoWY6KhORYi\noHZP52kVMAegiCd96VCnd4YAOUstWvwVkuB2v9kpgNP1cNC1DmBVGIdlGnMIBnnQ\n9kajxWgF+wKBgB0XMTacG+5ELRZhRzrhoIZ4HXhPN2gLdICfYdHSPzhXGE0EQ1op\nqU43SCvF0x9pclJuh8qUWa9j9zj+OuQISRsi0NxmuBi8+9wHeXiUP+YsAXj8FZ/b\nwlYpK+qXzEiWWj1h94H3vToOKSC23ILVMvczydCvZ/nOjhZg+bMTE/8/AoGAJddt\npJbY4TadNGVMhhRSIsl+t+JBIrHHetvSdYoLWHih1Cl5YNPpqR8sbADxHquFmwj4\nvJidEP18vIY91bvHcN187fDFKWZXSMTDATk9UQpF88y6QjSjwuQhnB+5M2ZC8nC+\nyBlwkuY9oRoDpbr1zmb0h2/LlV8YsQWtdDhQPckCgYEArVRxr2DSjhEFYDkLyuMp\nZpduopdo1vdqhXcWruBgWRLHgnChEcnsfXjc+PwJBxQaZ0W6iA91Fvj00GQtZgkz\nJ474EfdIgVD7hJ7/n9etu9d05qrEEuT5j/GE9AY+3UL77Z4651GhtrvDBFIT6tnS\nbs76Ycy9utkszsAUb4A7t6w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "eastern-camp-278504@appspot.gserviceaccount.com",
+  "client_id": "103674372380314971206",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eastern-camp-278504%40appspot.gserviceaccount.com"
+}
