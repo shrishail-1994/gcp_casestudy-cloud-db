@@ -49,7 +49,7 @@ public class HelloWorldController
 		return "Hello javaTpoint";  
 	}  
 	
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin //(origins = "http://localhost:4200")
 	@PostMapping("/authenticate")  
 	public Response authenticate(@RequestBody Credentials credentials) {		
 		
@@ -66,7 +66,7 @@ public class HelloWorldController
 		return response;
 	}  
 	
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin // //(origins = "http://localhost:4200")
 	@PostMapping("/register")  
 	public Response register(@RequestBody User userData) {		
 		userDetails.put(userData.getUserName(), userData);		
@@ -79,7 +79,7 @@ public class HelloWorldController
 	}  
 	
 	
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin //(origins = "http://localhost:4200")
 	@GetMapping("/getFeed")  
 	public List<Feed> getFeed() {		
 		Iterable<Feed> feedIterator = dbService.getFeeds();		
@@ -93,7 +93,7 @@ public class HelloWorldController
 		return feedList;
 	}  
 	
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin //(origins = "http://localhost:4200")
 	@PostMapping("/addFeed")  
 	public Response addFeed(@RequestBody Feed data) {		
 		
@@ -104,7 +104,7 @@ public class HelloWorldController
 	}
 
 	//image upload
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin //(origins = "http://localhost:4200")
 	@PostMapping("/uploadImage")
     public Response uplaodImage(@RequestParam MultipartFile file)
             throws IOException {
@@ -112,7 +112,7 @@ public class HelloWorldController
 		System.out.println("Original Image Byte Size - " + file.getBytes().length);
 		Picture img = new Picture(file.getOriginalFilename(), file.getContentType(),
 				compressBytes(file.getBytes()));
-		//imageRepository.save(img);
+		imageRepository.save(img);
         Response response = new Response();
 		response.setStatus("success");
 		return response;
@@ -159,7 +159,7 @@ public class HelloWorldController
 		}
 		
 		/*
-		 * @CrossOrigin(origins = "http://localhost:4200")
+		 * @CrossOrigin //(origins = "http://localhost:4200")
 		 * 
 		 * @GetMapping("/getImage") public Picture getImage() throws IOException {
 		 * 
@@ -169,11 +169,11 @@ public class HelloWorldController
 		 * decompressBytes(retrievedImage.get().getPic())); return img; }
 		 */
 		
-		@CrossOrigin(origins = "http://localhost:4200")
+		@CrossOrigin //(origins = "http://localhost:4200")
 		@GetMapping("/getAllImage")
 		public List<Picture> getAllImage() throws IOException {
 
-			final Iterable<Picture> retrievedImage = null;//imageRepository.findAll();
+			final Iterable<Picture> retrievedImage = imageRepository.findAll();
 			
 			List<Picture> responseList = new ArrayList<>();			
 			for (Picture picture : retrievedImage) {
